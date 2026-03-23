@@ -5,7 +5,7 @@ This repository is designed to help security teams, SOC analysts, researchers, a
 
 Update of the Malicious-Domain List on **2026-03-20 16:48 IST**
 
-Total Malicious Domain's- **134900**
+Total Malicious Domain's- **134950**
 
 🔥 Why This Repository?
 
