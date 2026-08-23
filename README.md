@@ -61,19 +61,19 @@
 
 ```mermaid
 flowchart TB
-    subgraph Sources["🔍 Threat Intelligence Sources"]
-        S1[URLhaus\n(Malware URLs → Domain extraction)]
-        S2[PhishTank\n(Verified phishing domains)]
-        S3[AlienVault OTX\n(Pulses with domain indicators)]
-        S4[Spamhaus DBL\n(Domain Block List)]
-        S5[Disconnect.me\n(Tracking/advertising domains)]
+    subgraph Sources["Threat Intelligence Sources"]
+        S1["URLhaus\nMalware URLs to Domain extraction"]
+        S2["PhishTank\nVerified phishing domains"]
+        S3["AlienVault OTX\nPulses with domain indicators"]
+        S4["Spamhaus DBL\nDomain Block List"]
+        S5["Disconnect.me\nTracking advertising domains"]
     end
 
-    Collect["🤖 Automated Collection\n(Every 12h via GitHub Actions)"]
-    Validate["✅ Multi-Source Validation\nVT ≥3 · Talos · URLScan.io"]
-    Dedup["🚫 Zero-Duplicate Guarantee\nBloom Filter + Git History + Cross-Partition"]
-    Repos["📦 Partitioned Repositories\nPart 1: 100K · Part 2: 100K · Auto-scaling"]
-    Deploy["🚀 Direct Tool Integration\nPalo Alto · FortiGate · Sentinel · Splunk · QRadar · Sophos · ELK · MISP · SentinelOne"]
+    Collect["Automated Collection\nEvery 12h via GitHub Actions"]
+    Validate["Multi-Source Validation\nVT 3+ Talos URLScan"]
+    Dedup["Zero-Duplicate Guarantee\nBloom Filter + Git History + Cross-Partition"]
+    Repos["Partitioned Repositories\nPart 1: 100K · Part 2: 100K · Auto-scaling"]
+    Deploy["Direct Tool Integration\nPalo Alto · FortiGate · Sentinel · Splunk · QRadar · Sophos · ELK · MISP · SentinelOne"]
 
     Sources --> Collect --> Validate --> Dedup --> Repos --> Deploy
 
