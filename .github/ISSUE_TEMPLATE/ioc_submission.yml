@@ -1,0 +1,98 @@
+name: IOC Submission
+description: Submit a new malicious IOC for inclusion
+title: "[IOC SUBMISSION] <Type> - <Value>"
+labels: ["ioc-submission", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a new IOC! Please provide as much context as possible.
+
+  - type: dropdown
+    id: ioc_type
+    attributes:
+      label: IOC Type
+      options:
+        - IP Address
+        - Domain
+        - MD5 Hash
+        - SHA1 Hash
+        - SHA256 Hash
+    validations:
+      required: true
+
+  - type: input
+    id: ioc_value
+    attributes:
+      label: IOC Value
+      placeholder: "185.220.101.45 or evil-domain.com or e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Threat Category
+      options:
+        - C2 (Command & Control)
+        - Phishing / Credential Harvesting
+        - Malware Distribution
+        - Ransomware
+        - Scanner / Reconnaissance
+        - Spam Infrastructure
+        - Cryptominer
+        - APT / Nation-State
+        - Tor Exit Node
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source / Evidence
+      description: Where did this IOC come from? (Incident response, honeypot, OSINT, vendor report, etc.)
+      placeholder: "Observed in honeypot logs on 2026-01-15 communicating with C2..."
+    validations:
+      required: true
+
+  - type: input
+    id: vt_link
+    attributes:
+      label: VirusTotal Link
+      placeholder: "https://www.virustotal.com/gui/ip-address/185.220.101.45"
+
+  - type: input
+    id: abuseipdb_link
+    attributes:
+      label: AbuseIPDB Link (IPs only)
+      placeholder: "https://www.abuseipdb.com/check/185.220.101.45"
+
+  - type: input
+    id: talos_link
+    attributes:
+      label: Cisco Talos Link
+      placeholder: "https://talosintelligence.com/reputation_center/lookup?search=185.220.101.45"
+
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Confidence Level
+      options:
+        - High (3+ independent sources, active in incidents)
+        - Medium (2 sources or 1 high-reputation source)
+        - Low (1 source, needs verification)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This IOC is verified malicious
+          required: true
+        - label: Not a private IP / legitimate CDN / internal range
+          required: true
+        - label: Format is correct (no http://, no paths, lowercase)
+          required: true

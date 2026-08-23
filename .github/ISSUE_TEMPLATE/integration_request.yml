@@ -1,0 +1,65 @@
+name: Tool Integration Request
+description: Request integration guide for a security tool
+title: "[INTEGRATION] <Tool Name>"
+labels: ["integration", "documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request a new integration guide or improve an existing one.
+
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool / Platform Name
+      placeholder: "Palo Alto, Splunk, SentinelOne, etc."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tool_category
+    attributes:
+      label: Tool Category
+      options:
+        - Firewall / NGFW
+        - SIEM / Log Management
+        - EDR / XDR
+        - SOAR
+        - TIP / MISP
+        - Email Security
+        - Web Proxy / DNS Filter
+        - Cloud Security
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case
+      description: How do you want to use the feed with this tool?
+      placeholder: "Block malicious IPs at perimeter firewall using External Dynamic Lists..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: config_details
+    attributes:
+      label: Configuration Details (if known)
+      description: Any specific config steps, API endpoints, or format requirements
+      placeholder: "Palo Alto EDL supports IP List and Domain List types, refresh interval configurable..."
+
+  - type: input
+    id: doc_link
+    attributes:
+      label: Official Documentation Link
+      placeholder: "https://docs.paloaltonetworks.com/..."
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I can provide a working configuration example
+        - label: I can test the integration guide
+        - label: I can maintain this integration guide

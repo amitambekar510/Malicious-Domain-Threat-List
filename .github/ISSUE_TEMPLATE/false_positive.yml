@@ -1,0 +1,68 @@
+name: False Positive Report
+description: Report a false positive IOC in the feed
+title: "[FALSE POSITIVE] <IP/Domain/Hash>"
+labels: ["false-positive", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a false positive! Please provide details so we can investigate and remove if confirmed.
+
+  - type: dropdown
+    id: ioc_type
+    attributes:
+      label: IOC Type
+      options:
+        - IP Address
+        - Domain
+        - MD5 Hash
+        - SHA1 Hash
+        - SHA256 Hash
+    validations:
+      required: true
+
+  - type: input
+    id: ioc_value
+    attributes:
+      label: IOC Value
+      description: The exact IP, domain, or hash value
+      placeholder: "185.220.101.45 or evil-domain.com or e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for False Positive
+      description: Why is this a false positive? (CDN IP, legitimate service, expired domain re-registered, etc.)
+      placeholder: "This IP belongs to Cloudflare CDN range..."
+    validations:
+      required: true
+
+  - type: input
+    id: evidence_vt
+    attributes:
+      label: VirusTotal Link (if available)
+      placeholder: "https://www.virustotal.com/gui/ip-address/185.220.101.45"
+
+  - type: input
+    id: evidence_abuseipdb
+    attributes:
+      label: AbuseIPDB Link (for IPs)
+      placeholder: "https://www.abuseipdb.com/check/185.220.101.45"
+
+  - type: input
+    id: evidence_talos
+    attributes:
+      label: Cisco Talos Link (if available)
+      placeholder: "https://talosintelligence.com/reputation_center/lookup?search=185.220.101.45"
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have verified this is a false positive
+          required: true
+        - label: I understand this will be reviewed before removal
+          required: true
