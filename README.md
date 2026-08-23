@@ -17,7 +17,6 @@
 ![Last Update](https://img.shields.io/github/last-commit/amitambekar510/Malicious-Domain-Threat-List?style=for-the-badge&label=Updated&color=ff8c00)
 ![Auto-Update](https://img.shields.io/badge/Auto_Update-Every_12h-1abc9c?style=for-the-badge&logo=githubactions)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Build](https://img.shields.io/github/actions/workflow/status/amitambekar510/Malicious-Domain-Threat-List/validate.yml?branch=main&label=Validation&style=for-the-badge)
 
 </div>
 
@@ -63,18 +62,18 @@
 ```mermaid
 flowchart TB
     subgraph Sources["🔍 Threat Intelligence Sources"]
-        S1[URLhaus<br/>(Malware URLs → Domain extraction)]
-        S2[PhishTank<br/>(Verified phishing domains)]
-        S3[AlienVault OTX<br/>(Pulses with domain indicators)]
-        S4[Spamhaus DBL<br/>(Domain Block List)]
-        S5[Disconnect.me<br/>(Tracking/advertising domains)]
+        S1[URLhaus\n(Malware URLs → Domain extraction)]
+        S2[PhishTank\n(Verified phishing domains)]
+        S3[AlienVault OTX\n(Pulses with domain indicators)]
+        S4[Spamhaus DBL\n(Domain Block List)]
+        S5[Disconnect.me\n(Tracking/advertising domains)]
     end
 
-    Collect["🤖 Automated Collection<br/>(Every 12h via GitHub Actions)"]
-    Validate["✅ Multi-Source Validation<br/>VT ≥3 · Talos · URLScan.io"]
-    Dedup["🚫 Zero-Duplicate Guarantee<br/>Bloom Filter + Git History + Cross-Partition"]
-    Repos["📦 Partitioned Repositories<br/>Part 1: 100K · Part 2: 100K · Auto-scaling"]
-    Deploy["🚀 Direct Tool Integration<br/>Palo Alto · FortiGate · Sentinel · Splunk · QRadar · Sophos · ELK · MISP · SentinelOne"]
+    Collect["🤖 Automated Collection\n(Every 12h via GitHub Actions)"]
+    Validate["✅ Multi-Source Validation\nVT ≥3 · Talos · URLScan.io"]
+    Dedup["🚫 Zero-Duplicate Guarantee\nBloom Filter + Git History + Cross-Partition"]
+    Repos["📦 Partitioned Repositories\nPart 1: 100K · Part 2: 100K · Auto-scaling"]
+    Deploy["🚀 Direct Tool Integration\nPalo Alto · FortiGate · Sentinel · Splunk · QRadar · Sophos · ELK · MISP · SentinelOne"]
 
     Sources --> Collect --> Validate --> Dedup --> Repos --> Deploy
 
