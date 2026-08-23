@@ -1,16 +1,8 @@
 <div align="center">
 
-```
-███╗   ███╗██╗███╗   ██╗██╗███████╗████████╗ █████╗ ██████╗  ██████╗ ██████╗ ██████╗ ██╗   ██╗
-████╗ ████║██║████╗  ██║██║██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██══██╗╚██╗ ██╔╝
-██╔████╔██║██║██╔██╗ ██║██║███████╗   ██║   ███████║██████╔╝██║   ██║██████╔╝██████╔╝ ╚████╔╝
-██║╚██╔╝██║██║██║╚██╗██║██║╚════██║   ██║   ██╔══██║██╔══██╗██║   ██║██══██╗██══██╗  ╚██╔╝
-██║ ╚═╝ ██║██║██║ ╚████║██║███████║   ██║   ██║  ██║██║  ██║╚██████╔╝██║  ██║██║  ██║   ██║
-╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚═════╝ ╚═════╝   ╚═╝
-```
+![Malicious Domain Threat Intelligence Feed](assets/banner.svg)
 
-# 🟠 Malicious Domain Threat Intelligence Feed
-### Continuously updated list of malicious, suspicious & high-risk domains for network defense
+</div>
 
 ![Feed Status](https://img.shields.io/badge/Feed-ACTIVE-ff8c00?style=for-the-badge)
 ![Total Domains](https://img.shields.io/badge/Total_Domains-138,700+-ff8c00?style=for-the-badge)

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff8c00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b35;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accentGrad)"/>
+  
+  <circle cx="100" cy="150" r="60" fill="none" stroke="url(#accentGrad)" stroke-width="2" opacity="0.3"/>
+  <circle cx="100" cy="150" r="40" fill="none" stroke="#ff8c00" stroke-width="1" opacity="0.5"/>
+  
+  <text x="200" y="130" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="42" font-weight="bold" fill="url(#accentGrad)" filter="url(#glow)">
+    Malicious Domain Threat Intelligence
+  </text>
+  
+  <text x="200" y="185" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="18" fill="#8b949e">
+    Continuously updated • 138,700+ domains • Auto-updated every 12h
+  </text>
+  
+  <g font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="14">
+    <rect x="200" y="210" width="180" height="32" rx="4" fill="#ff8c00" opacity="0.15" stroke="#ff8c00" stroke-width="1"/>
+    <text x="290" y="233" text-anchor="middle" fill="#ff8c00" font-weight="bold">138,700+ Domains</text>
+    
+    <rect x="400" y="210" width="160" height="32" rx="4" fill="#1abc9c" opacity="0.15" stroke="#1abc9c" stroke-width="1"/>
+    <text x="480" y="233" text-anchor="middle" fill="#1abc9c" font-weight="bold">Every 12h</text>
+    
+    <rect x="580" y="210" width="140" height="32" rx="4" fill="#00ff41" opacity="0.15" stroke="#00ff41" stroke-width="1"/>
+    <text x="650" y="233" text-anchor="middle" fill="#00ff41" font-weight="bold">MIT License</text>
+  </g>
+  
+  <circle cx="1100" cy="150" r="80" fill="none" stroke="url(#accentGrad)" stroke-width="1" opacity="0.2"/>
+  <circle cx="1100" cy="150" r="50" fill="none" stroke="#ff8c00" stroke-width="1" opacity="0.3" stroke-dasharray="10,5"/>
+  
+  <rect x="0" y="296" width="1200" height="4" fill="url(#accentGrad)"/>
+  
+  <text x="600" y="275" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="12" fill="#484f58" text-anchor="middle">
+    github.com/amitambekar510/Malicious-Domain-Threat-List
+  </text>
+</svg>
