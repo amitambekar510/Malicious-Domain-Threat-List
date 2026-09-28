@@ -3,9 +3,9 @@
 # Author        : Amit Ambekar
 # Organization  : Personal Threat Intelligence
 # Created       : 2024-01-01
-# Updated       : 2026-01-15
+# Updated       : 2026-09-28
 # Part          : 02 (max 100000 per file)
-# Count         : 38346
+# Count         : 38396
 # Source        : Multi-source — URLhaus / PhishTank / OTX / Spamhaus / Disconnect
 # Category      : Mixed (Phishing, Malware, C2, Scam, Spam)
 # License       : MIT
