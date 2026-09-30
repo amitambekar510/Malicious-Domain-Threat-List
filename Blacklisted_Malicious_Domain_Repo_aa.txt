@@ -3,9 +3,9 @@
 # Author        : Amit Ambekar
 # Organization  : Personal Threat Intelligence
 # Created       : 2024-01-01
-# Updated       : 2026-09-28
+# Updated       : 2026-09-30
 # Part          : 02 (max 100000 per file)
-# Count         : 38396
+# Count         : 38400
 # Source        : Multi-source — URLhaus / PhishTank / OTX / Spamhaus / Disconnect
 # Category      : Mixed (Phishing, Malware, C2, Scam, Spam)
 # License       : MIT
@@ -20,6 +20,10 @@ steamcommunrity.com
 steamcommunrity.ru
 steamcommunrity.ru.com
 steamcommunrlity.com
+steamcommunnyti.ru
+steamcommunoty.ru
+steamcommunqty.ru
+steamcommunrilty.com
 steamcommunrlty.ru
 steamcommunrly.ru
 steamcommunrnity.com
