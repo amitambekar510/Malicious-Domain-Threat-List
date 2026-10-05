@@ -3,9 +3,9 @@
 # Author        : Amit Ambekar
 # Organization  : Personal Threat Intelligence
 # Created       : 2024-01-01
-# Updated       : 2026-09-30
+# Updated       : 2026-10-05
 # Part          : 02 (max 100000 per file)
-# Count         : 38400
+# Count         : 38500
 # Source        : Multi-source — URLhaus / PhishTank / OTX / Spamhaus / Disconnect
 # Category      : Mixed (Phishing, Malware, C2, Scam, Spam)
 # License       : MIT
@@ -15,6 +15,106 @@
 slaveerol.space
 slaveporngames.com
 slavinfo.com
+steamcommunniltty.com
+steamcommunnilty.com
+steamcommunnilty.ru
+steamcommunnilty.site
+steamcommunnilty.store
+steamcommunnily.com
+steamcommunnily.ru
+steamcommunninty.io
+steamcommunninty.ru
+steamcommunninuty.com
+steamcommunnite.com
+steamcommunnite.ru
+steamcommunnites.com
+steamcommunnitey.com
+steamcommunniti.ru
+steamcommunnities.com
+steamcommunnitiy.com
+steamcommunnitiy.ru
+steamcommunnitliy.ru
+steamcommunnitlly.com
+steamcommunnitlly.ru
+steamcommunnitly.com
+steamcommunnitly.ru
+steamcommunnitlys.online
+steamcommunnitlys.ru
+steamcommunnitry.com
+steamcommunnits.com
+steamcommunnits.ru.com
+steamcommunnitse.com
+steamcommunnittlly.com
+steamcommunnittly.com
+steamcommunnittly.ru
+steamcommunnitty.ru
+steamcommunnitty.xyz
+steamcommunnity.club
+steamcommunnity.co
+steamcommunnity.com.ru
+steamcommunnity.dk
+steamcommunnity.eu
+steamcommunnity.fun
+steamcommunnity.ga
+steamcommunnity.in
+steamcommunnity.ml
+steamcommunnity.net
+steamcommunnity.net.ru
+steamcommunnity.online
+steamcommunnity.org
+steamcommunnity.ru
+steamcommunnity.ru.com
+steamcommunnity.site
+steamcommunnity.xyz
+steamcommunnityi.com
+steamcommunnityn.ru
+steamcommunnityru.ru
+steamcommunnitys.com
+steamcommunnitys.ru
+steamcommunnityy.ru
+steamcommunniuty.ru
+steamcommunnjty.com
+steamcommunnjty.com.ru
+steamcommunnlity.com
+steamcommunnlity.ru
+steamcommunnllity.ru
+steamcommunnllty.com
+steamcommunnlt.ru
+steamcommunnltiy.net.ru
+steamcommunnltiy.org.ru
+steamcommunnltiy.pp.ru
+steamcommunnltly.com
+steamcommunnlttu.ru
+steamcommunnltu.ru
+steamcommunnlty.com
+steamcommunnlty.com.ru
+steamcommunnlty.net.ru
+steamcommunnlty.ru
+steamcommunnlty.shop
+steamcommunnltys.com
+steamcommunnltyy.online
+steamcommunnltyy.ru
+steamcommunnnity.com
+steamcommunnnity.ru
+steamcommunntiiy.ru
+steamcommunntiy.com
+steamcommunntiy.ru
+steamcommunntl.xyz
+steamcommunntliy.com
+steamcommunntliy.ru
+steamcommunntly.com
+steamcommunnttiy.com
+steamcommunnttiy.ru
+steamcommunntty.com
+steamcommunnty.ru
+steamcommunnulty.com
+steamcommunnuly.com
+steamcommunnutiy.com
+steamcommunnutly.com
+steamcommunnutty.com
+steamcommunnuty.com
+steamcommunnuty.online
+steamcommunnuty.ru
 steamcommunrinty.ru.com
 steamcommunrity.com
 steamcommunrity.ru
